@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact / Produce Pixels</title>
+  <meta name="description" content="Tell me about your business. I'll send back a free working demo within a few days." />
+  <meta name="theme-color" content="#001219" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a href="index.html" class="brand"><span class="blip"></span>Produce Pixels</a>
+      <button class="mobile-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="nav" id="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Work</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+        <a href="contact.html" class="cta">Free demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="shell">
+        <span class="tag-row"><span class="pip"></span>Contact</span>
+        <h1 class="h1">Tell me about <span class="accent">your business.</span></h1>
+        <p>I&rsquo;ll send back a working demo of your site within a few days. No call required, no contract, no payment. Answer a few questions below or just email me direct.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell contact-grid">
+
+        <div>
+          <span class="section-label">Free demo request</span>
+          <h2 class="h2" style="margin-top: 12px; margin-bottom: 32px;">A few quick questions, then I&rsquo;ll <span class="accent">build the thing.</span></h2>
+
+          <form class="form" id="demo-form" action="https://formsubmit.co/producepixels@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New demo request via producepixels.com">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://producepixels.com/thanks.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" required autocomplete="name" />
+              </div>
+              <div class="field">
+                <label for="business">Business name</label>
+                <input type="text" id="business" name="business" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" required autocomplete="email" />
+              </div>
+              <div class="field">
+                <label for="phone">Phone (optional)</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="type">What kind of business</label>
+              <select id="type" name="type">
+                <option value="">Pick one</option>
+                <option>Coffee shop or cafe</option>
+                <option>Restaurant or bar</option>
+                <option>Hair, nail, or beauty salon</option>
+                <option>Auto repair or detail</option>
+                <option>Plumbing, HVAC, or electrical</option>
+                <option>Lawn care or landscaping</option>
+                <option>Boutique or retail</option>
+                <option>Fitness or studio</option>
+                <option>Pet groomer or vet</option>
+                <option>Service or trades (other)</option>
+                <option>Something else</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message">Tell me about it</label>
+              <textarea id="message" name="message" placeholder="Where are you located, what do you sell or offer, what would you want a website to do for you?" required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Send it over <span class="arrow">&rsaquo;</span></button>
+              <p class="form-note">Lands straight in my inbox. I&rsquo;ll reply within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+
+        <aside>
+          <div class="info-block">
+            <h3>Or skip the form.</h3>
+
+            <div class="info-row">
+              <span class="label">Email</span>
+              <a class="value" href="mailto:producepixels@gmail.com">producepixels@gmail.com</a>
+            </div>
+
+            <div class="info-row">
+              <span class="label">Phone</span>
+              <a class="value" href="tel:+18504176338">(850) 417-6338</a>
+            </div>
+
+            <div class="info-row">
+              <span class="label">Based in</span>
+              <span class="value">Milton, FL</span>
+            </div>
+
+            <div class="info-row">
+              <span class="label">Serving</span>
+              <span class="value">Milton, Pace, Santa Rosa County, Gulf Coast Florida</span>
+            </div>
+
+            <hr />
+
+            <div class="info-row">
+              <span class="label">Reply time</span>
+              <span class="value">Within 24 hours, usually same day</span>
+            </div>
+
+            <div class="info-row">
+              <span class="label">No-call promise</span>
+              <span class="value">Email or text only unless you want to talk.</span>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="shell">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand"><span class="blip"></span>Produce Pixels</a>
+          <p class="footer-tag">A one-person web shop in Milton, Florida. Built to make the local business next door look as good online as the chain on the corner.</p>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Site</h4>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Work</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="footer-col">
+            <h4>Reach me</h4>
+            <a href="mailto:producepixels@gmail.com">producepixels@gmail.com</a>
+            <a href="contact.html">Free demo request</a>
+          </div>
+          <div class="footer-col">
+            <h4>Where</h4>
+            <a>Milton, FL</a>
+            <a>Pace, FL</a>
+            <a>Santa Rosa County</a>
+            <a>Gulf Coast, FL</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Produce Pixels. Built by hand.</span>
+        <span>producepixels.com</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
