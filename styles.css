@@ -79,12 +79,20 @@ button { font-family: inherit; }
   align-items: center;
   gap: 10px;
 }
-.brand .blip {
-  width: 14px;
-  height: 14px;
-  background: var(--golden-orange);
-  border: 2px solid var(--ink-black);
+.brand-mark {
+  width: 26px;
+  height: 26px;
   display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
+}
+.topbar .brand-mark { background-image: url("logo.svg"); }
+.footer .brand-mark {
+  background-image: url("logo-light.svg");
+  width: 28px;
+  height: 28px;
 }
 .nav {
   display: flex;
